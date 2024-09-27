@@ -4,7 +4,6 @@
   "description": "Just a simple API call with data written out to filesystem",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
     "show-api-key": "tsc && node dist/server/fs/showAPIKey.js",
     "start-debug": "tsc-watch --noClear --onSuccess \"node --inspect dist/server/index.js\"",
     "start": "tsc && node dist/server/index.js"
